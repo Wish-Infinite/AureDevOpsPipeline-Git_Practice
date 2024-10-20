@@ -22,4 +22,4 @@ steps:
   displayName: 'Install Playwright Browsers'
 
 - script: npx playwright test
-  displayName: 'Start execution'
+  displayName: 'Start execution From GitRepo'
