@@ -23,7 +23,7 @@ steps:
 
 - script: npx playwright test
   displayName: 'Start execution From GitRepo'
-  
+
 - task: PublishPipelineArtifact@1
   inputs:
     targetPath: 'playwright-report'
