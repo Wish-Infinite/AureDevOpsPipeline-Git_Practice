@@ -29,3 +29,4 @@ steps:
     targetPath: 'playwright-report'
     artifact: 'Playwright HTML Report'
     publishLocation: 'pipeline'
+  condition: always()
